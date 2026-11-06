@@ -1,0 +1,18 @@
+﻿
+========== alerts ==========
+
+========== FaceRecognition ==========
+dataset
+evaluation_results
+unknown_dataset
+verification_dataset
+images
+annotated
+charts
+gallery_evaluation
+identification
+unknown_evaluation
+verification_charts
+P03
+P01
+P02

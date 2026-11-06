@@ -1,0 +1,5 @@
+﻿gallery_size,known_correct,known_total,known_rejected,known_misidentified,known_accuracy,unknown_rejected,unknown_accepted,unknown_total,unknown_rejection_rate
+1,6,6,0,0,1.0,7,0,7,1.0
+2,6,6,0,0,1.0,7,0,7,1.0
+3,6,6,0,0,1.0,7,0,7,1.0
+4,6,6,0,0,1.0,7,0,7,1.0

@@ -1,0 +1,10 @@
+image,actual_faces,condition
+test.jpg,1,frontal
+test2.jpg,7,group
+test3.jpg,1,construction
+test4.jpg,1,distance
+test5.jpg,1,frontal
+test6.jpg,1,side_face
+test7.jpg,1,low_light
+test8.jpg,1,low_quality
+test9.jpg,1,other

@@ -1,0 +1,10 @@
+﻿image,condition,actual_faces,detected_faces,count_difference,count_match,status
+test.jpg,frontal,1,1,0,YES,COUNT_MATCH
+test2.jpg,group,7,7,0,YES,COUNT_MATCH
+test3.jpg,construction,1,1,0,YES,COUNT_MATCH
+test4.jpg,distance,1,1,0,YES,COUNT_MATCH
+test5.jpg,frontal,1,1,0,YES,COUNT_MATCH
+test6.jpg,side_face,1,1,0,YES,COUNT_MATCH
+test7.jpg,low_light,1,1,0,YES,COUNT_MATCH
+test8.jpg,low_quality,1,1,0,YES,COUNT_MATCH
+test9.jpg,other,1,1,0,YES,COUNT_MATCH
