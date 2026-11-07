@@ -2,11 +2,14 @@ import os
 import time
 import cv2
 import threading
+from pathlib import Path
+
 import numpy as np
+import yaml
 
 from ultralytics import YOLO
 from ultralytics.trackers.byte_tracker import BYTETracker
-from ultralytics.utils import YAML, IterableSimpleNamespace
+from ultralytics.utils import IterableSimpleNamespace
 from ultralytics.utils.checks import check_yaml
 from ultralytics.engine.results import Boxes
 
@@ -211,8 +214,8 @@ for class_id, class_name in model.names.items():
 
 print("\nDang khoi tao ByteTrack...")
 
-tracker_config = YAML.load(
-    check_yaml("bytetrack.yaml")
+tracker_config = yaml.safe_load(
+    Path(check_yaml("bytetrack.yaml")).read_text(encoding="utf-8")
 )
 
 tracker_args = IterableSimpleNamespace(
